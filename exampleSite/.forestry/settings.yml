@@ -22,7 +22,7 @@ sections:
 upload_dir: exampleSite/static/uploads
 public_path: "/static/img"
 front_matter_path: "/static/img"
-use_front_matter_path: true
+use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_env:
