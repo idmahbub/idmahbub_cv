@@ -19,8 +19,8 @@ sections:
   label: Pages
   create: all
   match: "*"
-upload_dir: exampleSite/static/uploads
-public_path: "/static/img"
+upload_dir: exampleSite/static/images
+public_path: "/img"
 front_matter_path: "/static/img"
 use_front_matter_path: false
 file_template: ":filename:"
