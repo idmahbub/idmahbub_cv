@@ -29,41 +29,41 @@ metaDataFormat= "yaml"
   [params.main]
     enabled = true
     enableKatex = true
-    metaKeywords = "fast, hugo, theme, minimal, gruvbox"
-    headerTitle = "Jane Doe"
-    copyright = "© 2021 Jane Doe.  <a href=\"https://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>."
-    name = "jane_doe"
-    img = "img/author.jpg"
-    img_title = "Thanks to Christina @ wocintechchat.com for this photo."
-    icon = "img/logo.png"
-    quote = "A nice quote that you like that describes the beautiful person you are."
-    description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Quis risus sed vulputate odio ut. Sed turpis tincidunt id aliquet risus feugiat in ante metus. Bibendum at varius vel pharetra vel turpis. Semper viverra nam libero justo laoreet sit amet cursus. Mauris a diam maecenas sed enim ut sem."
-    licenseUrl = ""
+    metaKeywords = "full stack, devops, hire, require, networking"
+    headerTitle = "Mahbub Hamid"
+    copyright = "© 2021 mahbub."
+    name = "idmahbub"
+    img = "images/author.jpg"
+    img_title = "idmahbub ready for hire."
+    icon = "images/logo.png"
+    quote = "Making it perfect is not difficult, but making it more valuable is to be expected."
+    description= "Building an information technology ecosystem is a stack that can be unraveled, but resource integrity is the main thing, I am ready to finish it all, I am ready to make IT investment more valuable.."
+    licenseUrl = "https://wicsolution.com"
 
  # Social icons
   [[params.social]]
     name = "gitlab"
-    url  = "https://gitlab.com/avron/gruvhugo"
+    url  = "https://gitlab.com/idmahbub"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:mail@mail.com"
+    url  = "mailto:bubyc58@gmail.com"
 
   [[params.social]]
-    name = "gpg"
-    url  = "https://keys.openpgp.org/"
+    name = "facebook"
+    url  = "https://facebook.com/idmahbub"
 
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/"
+    url  = "https://twitter.com/idmahbub"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/"
+    url  = "https://github.com/idmahbub"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/"
+    url  = "https://www.linkedin.com/idmahbub"
 
 [params.style]
   # add path to custom CSS files here
