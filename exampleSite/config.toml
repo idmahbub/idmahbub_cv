@@ -76,8 +76,8 @@ url = "post/"
 weight = 2
 [[menu.main]]
 identifier = "wiki"
-name = "Wiki"
-url = "none"
+name = "Portfolio"
+url = "https://wicsolution.com/#portfolio"
 weight = 3
 [params.main]
 copyright = "© 2021 mahbub."
