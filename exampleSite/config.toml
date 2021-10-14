@@ -1,149 +1,119 @@
-# Hey, thanks for using my theme. If you like this theme,checkout my repo (https://gitlab.com/avron/gruvhugo"
-# and drop a star while you're at it. ;)
 baseurl = "https://idmahbub.wicsolution.com/"
-title = "Mahbub H"
+defaultExtension = "html"
 languageCode = "en-us"
-paginate = "10" # Number of posts per page
-#disqusShortname = "" # Enable comments by entering your Disqus shortname
-#googleAnalytics = "" # Enable Google Analytics by entering your tracking id
-#-------------------------------------------------------------------------------
-# DEFAULT SETTINGS
-#-------------------------------------------------------------------------------
-
-# Default Theme
-theme= "gruvhugo"
-
-# Default Post Extension
-defaultExtension= "html"
-
-# Default metadata format for newly created frontmatter using
-# hugo new command. "toml", "yaml", or "json"
-metaDataFormat= "yaml"
-
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
-  series   = "series"
-
-[params]
-  [params.main]
-    enabled = true
-    enableKatex = true
-    metaKeywords = "full stack, devops, hire, require, networking"
-    headerTitle = "Mahbub Hamid"
-    copyright = "© 2021 mahbub."
-    name = "idmahbub"
-    img = "images/author.jpg"
-    img_title = "idmahbub ready for hire."
-    icon = "images/logo.png"
-    quote = "Making it perfect is not difficult, but making it more valuable is to be expected."
-    description= "Building an information technology ecosystem is a stack that can be unraveled, but resource integrity is the main thing, I am ready to finish it all, I am ready to make IT investment more valuable.."
-    licenseUrl = "https://wicsolution.com"
-
- # Social icons
-  [[params.social]]
-    name = "gitlab"
-    url  = "https://gitlab.com/idmahbub"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:bubyc58@gmail.com"
-
-  [[params.social]]
-    name = "facebook"
-    url  = "https://facebook.com/idmahbub"
-
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/idmahbub"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/idmahbub"
-
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/idmahbub"
-
-[params.style]
-  # add path to custom CSS files here
-  custom_css = []
-  # add path to custom SCSS files here
-  custom_scss = []
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about"
-
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "post/"
-
-  [[menu.main]]
-    identifier = "wiki"
-    name       = "Wiki"
-    url        = "none"
-
+metaDataFormat = "yaml"
+paginate = "10"
+theme = "gruvhugo"
+title = "Mahbub H"
 [markup]
-  defaultMarkdownHandler = "goldmark"
-  [markup.asciidocExt]
-    backend = "html5"
-    docType = "article"
-    extensions = []
-    failureLevel = "fatal"
-    noHeaderOrFooter = true
-    safeMode = "unsafe"
-    sectionNumbers = false
-    trace = false
-    verbose = true
-    workingFolderCurrent = false
-    [markup.asciidocExt.attributes]
-  [markup.blackFriday]
-    angledQuotes = false
-    footnoteAnchorPrefix = ""
-    footnoteReturnLinkContents = ""
-    fractions = true
-    hrefTargetBlank = false
-    latexDashes = true
-    nofollowLinks = false
-    noreferrerLinks = false
-    plainIDAnchors = true
-    skipHTML = false
-    smartDashes = true
-    smartypants = true
-    smartypantsQuotesNBSP = false
-    taskLists = true
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      definitionList = true
-      footnote = true
-      linkify = true
-      strikethrough = true
-      table = true
-      taskList = true
-      typographer = true
-    [markup.goldmark.parser]
-      attribute = true
-      autoHeadingID = true
-      autoHeadingIDType = "github"
-    [markup.goldmark.renderer]
-      hardWraps = false
-      unsafe = false
-      xhtml = false
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "monokai"
-    tabWidth = 4
-  [markup.tableOfContents]
-    endLevel = 3
-    ordered = false
-    startLevel = 2
+defaultMarkdownHandler = "goldmark"
+[markup.asciidocExt]
+backend = "html5"
+docType = "article"
+extensions = []
+failureLevel = "fatal"
+noHeaderOrFooter = true
+safeMode = "unsafe"
+sectionNumbers = false
+trace = false
+verbose = true
+workingFolderCurrent = false
+[markup.asciidocExt.attributes]
+[markup.blackFriday]
+angledQuotes = false
+footnoteAnchorPrefix = ""
+footnoteReturnLinkContents = ""
+fractions = true
+hrefTargetBlank = false
+latexDashes = true
+nofollowLinks = false
+noreferrerLinks = false
+plainIDAnchors = true
+skipHTML = false
+smartDashes = true
+smartypants = true
+smartypantsQuotesNBSP = false
+taskLists = true
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+[markup.goldmark.parser]
+attribute = true
+autoHeadingID = true
+autoHeadingIDType = "github"
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = false
+xhtml = false
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = "monokai"
+tabWidth = 4
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "about"
+weight = 1
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "post/"
+weight = 2
+[[menu.main]]
+identifier = "wiki"
+name = "Wiki"
+url = "none"
+weight = 3
+[params.main]
+copyright = "© 2021 mahbub."
+description = "Building an information technology ecosystem is a stack that can be unraveled, but resource integrity is the main thing, I am ready to finish it all, I am ready to make IT investment more valuable.."
+enableKatex = true
+enabled = true
+headerTitle = "Mahbub Hamid"
+icon = "images/logo.png"
+img = "images/author.jpg"
+img_title = "idmahbub ready for hire."
+licenseUrl = "https://wicsolution.com"
+metaKeywords = "full stack, devops, hire, require, networking"
+name = "idmahbub"
+quote = "Making it perfect is not difficult, but making it more valuable is to be expected."
+[params.style]
+custom_css = []
+custom_scss = []
+[[params.social]]
+name = "gitlab"
+url = "https://gitlab.com/idmahbub"
+[[params.social]]
+name = "email"
+url = "mailto:bubyc58@gmail.com"
+[[params.social]]
+name = "facebook"
+url = "https://facebook.com/idmahbub"
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/idmahbub"
+[[params.social]]
+name = "github"
+url = "https://github.com/idmahbub"
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/idmahbub"
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
