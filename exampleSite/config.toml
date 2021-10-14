@@ -70,15 +70,10 @@ name = "About"
 url = "about"
 weight = 1
 [[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "post/"
-weight = 2
-[[menu.main]]
 identifier = "wiki"
 name = "Portfolio"
 url = "https://wicsolution.com/#portfolio"
-weight = 3
+weight = 2
 [params.main]
 copyright = "© 2021 mahbub."
 description = "Building an information technology ecosystem is a stack that can be unraveled, but resource integrity is the main thing, I am ready to finish it all, I am ready to make IT investment more valuable.."
