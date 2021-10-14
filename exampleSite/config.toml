@@ -107,7 +107,7 @@ name = "github"
 url = "https://github.com/idmahbub"
 [[params.social]]
 name = "linkedin"
-url = "https://www.linkedin.com/idmahbub"
+url = "https://www.linkedin.com/in/idmahbub"
 [taxonomies]
 category = "categories"
 series = "series"
