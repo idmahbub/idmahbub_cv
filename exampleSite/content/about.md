@@ -8,9 +8,9 @@ title = "About Me"
 +++
 I am a sociable person, likes challenges and likes to hang out with many friends. I like traveling, climbing mountains and playing games.
 
-> **2010** - working with PHP (native and framework), JS framework,HTML, CSS, 
+> **2010** - working with PHP (native and framework), JS framework,HTML, CSS,
 >
-> **2015** - flutter and python. My company also always 
+> **2015** - flutter and python. My company also always
 >
 > **2016** - use git, ci/cd, webhook. I like automation including using rabbitmq, celery etc.
 
