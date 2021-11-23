@@ -30,4 +30,4 @@ and finally until now I feel the benefits, I have **broad** knowledge about this
 
 are like “properties” that are seen every day;
 
-**again** about my strange hobby that may not have been mentioned, it is coding and hacking.
+**again** about my strange hobby that may not have been mentioned, it is coding and Problem Solving.
