@@ -19,8 +19,8 @@ sections:
   label: Pages
   create: all
   match: "*"
-upload_dir: exampleSite/static/images
-public_path: exampleSite/static/images
+upload_dir: https://owner.wicsolution.com/static/images
+public_path: https://owner.wicsolution.com/static/images
 front_matter_path: "/static/img"
 use_front_matter_path: false
 file_template: ":filename:"
