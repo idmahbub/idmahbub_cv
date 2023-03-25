@@ -22,12 +22,16 @@ and finally until now I feel the benefits, I have **broad** knowledge about this
 
 > **2009**-Debian and their derivatives,
 
+> **2009**-Wire and Wireless,
+
 > **2012**-Mikrotik,
 
-> **2008**-Wire and Wireless,
+> **2015**-Docker And Containers,
+
+> **2017**-Kubernetes as DevOps,
 
 > **2015**-Fiber
 
-are like “properties” that are seen every day;
+are like “something fun” that are seen every day;
 
 **again** about my strange hobby that may not have been mentioned, it is coding and Problem Solving.
