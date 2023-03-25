@@ -1,4 +1,4 @@
-baseurl = "https://idmahbub.wicsolution.com/"
+baseurl = "https://mahbub.wicsolution.com/"
 defaultExtension = "html"
 languageCode = "en-us"
 metaDataFormat = "yaml"
@@ -75,7 +75,7 @@ name = "About Experiences"
 url = "about"
 weight = 1
 [params.main]
-copyright = "© 2021 mahbub."
+copyright = "© mahbub."
 description = "Building an information technology ecosystem is a stack that can be unraveled, but resource integrity is the main thing, I am ready to finish it all, I am ready to make IT investment more valuable.."
 enableKatex = true
 enabled = true
@@ -95,7 +95,7 @@ name = "gitlab"
 url = "https://gitlab.com/idmahbub"
 [[params.social]]
 name = "email"
-url = "mailto:bubyc58@gmail.com"
+url = "mailto:mahbub@wicsolution.com"
 [[params.social]]
 name = "facebook"
 url = "https://facebook.com/idmahbub"
